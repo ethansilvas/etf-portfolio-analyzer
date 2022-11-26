@@ -1,11 +1,23 @@
 # Module 7 Challenge - ETF Portfolio Analysis Using SQLAlchemy and hvPlot
 
-
+In this project I build a financial database and web application by using SQL, Python, and the Voila library to analyze the performance of a hypothetical fintech ETF. The data used is a database of daily return data of four example ETFs over four years. 
 
 **Data from 2016-2020** <br>
 [ETF timestamped OHLCV database](/etf.db)
 
-![](/images/pypl_plot.gif)
+I begin by using SQL to analyze the PYPL ETF and plot interactive graphs of its daily and cumulative returns.  
+
+![Gif of using PYPL ETF daily returns graph](/images/pypl_plot.gif)
+
+Then, I narrow down my queries to look at the top ten daily returns of PYPL and find all closing prices over a certain threshold. 
+
+![Dataframe of top ten daily returns from PYPL ETF](/images/top_ten.png)
+
+Finally, I join all of the ETF tables to analyze the cumulative returns for the entire portfolio. 
+
+![Line plot of cumulative returns for the entire ETF portfolio](/images/cumulative_plot.png)
+
+In order to provide a web view of the completed notebook, I use the Voila Python library to locally host the full code output and plots. (Shown gif/images are from Voila output)
 
 ---
 
