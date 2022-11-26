@@ -5,7 +5,7 @@
 **Data from 2016-2020** <br>
 [ETF timestamped OHLCV database](/etf.db)
 
-
+![](/images/pypl_plot.mov)
 
 ---
 
