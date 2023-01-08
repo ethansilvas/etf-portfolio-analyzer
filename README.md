@@ -1,4 +1,4 @@
-# Module 7 Challenge - ETF Portfolio Analysis Using SQLAlchemy and hvPlot
+# ETF Portfolio Analysis Using SQLAlchemy and hvPlot - UW Fintech Bootcamp Module 7 Challenge
 
 In this project I build a financial database and web application by using SQL, Python, and the Voila library to analyze the performance of a hypothetical fintech ETF. The data used is a database of daily return data of four example ETFs over four years. 
 
